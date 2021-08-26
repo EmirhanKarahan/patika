@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.content-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 90rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 10rem;
+}
+
+.header__nav > a {
+  margin-left: 1rem;
+}
+
+.index{
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.index__img{
+  width: 30rem;
+}
+
+.seyler{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  display: block;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.card__text{
+  background-color:khaki;
+  height: 6rem;
+}
+
+.card__img{
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.begendiniz-mi{
+  min-height: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.begendiniz-mi__img{
+  margin-top: 2rem;
+  width: 30rem;
+}
+
+.footer{
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer > a{
+    margin-left: 1rem;
+}
