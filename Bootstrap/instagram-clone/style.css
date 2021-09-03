@@ -42,7 +42,7 @@
   }
 
   .rightpanel{
-      position:fixed
+      position:sticky
   }
   
   .rightpanellinks {
